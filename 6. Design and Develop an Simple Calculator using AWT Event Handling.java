@@ -43,7 +43,8 @@ public class Main {
                     System.out.println("Result : Invalid operation");
                     valid = false;
             }
-        } catch (Exception e) {
+        } 
+        catch (Exception e) {
             System.out.println("Result : Invalid input");
             valid = false;
         }
